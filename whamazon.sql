@@ -11,3 +11,16 @@ CREATE TABLE products(
     price INTEGER(10),
     stock_quantity INTEGER(10),
 )
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES
+("LED Lights", "Lighting", 80, 100),
+("Subwoofers", "Electronics", 100, 10),
+("Gamestation", "Electronics", 350, 10),
+("Headlight bulbs", "Lighting", 10, 30),
+("Soccer Ball", "Sports", 15, 20),
+("Basketball", "Sports", 20, 20),
+("Toaster", "Household", 5, 40),
+("Refrigerator", "Household", 3, 200),
+("Juice", "Groceries", 100, 5),
+("Sandwich Meat", "Groceries", 50, 10);
