@@ -10,7 +10,8 @@ CREATE TABLE products(
     department_name VARCHAR(50),
     price INTEGER(10),
     stock_quantity INTEGER(10),
-)
+    PRIMARY KEY (item_id)
+);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES
